@@ -3,167 +3,166 @@
         <icon>fa:home fa-fw</icon>
         <menu>
             <menuitem label='Início'>
-                <icon>fa:life-ring fa-fw</icon>
+                <icon>fa:star fa-fw</icon>
                 <action>WelcomeView</action>
             </menuitem>
             <menuitem label='Aprenda'>
-                <icon>fa:book fa-fw</icon>
+                <icon>fa:graduation-cap fa-fw</icon>
                 <action>LearnView</action>
             </menuitem>
             <menuitem label='Template'>
-                <icon>fa:desktop fa-fw</icon>
+                <icon>fa:file-code fa-fw</icon>
                 <action>TemplateView</action>
             </menuitem>
         </menu>
     </menuitem>
     <menuitem label='Configuração'>
-        <icon>fa:cog fa-fw</icon>
+        <icon>fa:cogs fa-fw</icon>
         <menu>
             <menuitem label='Ver módulos'>
-                <icon>fa:cube fa-fw</icon>
+                <icon>fa:th-large fa-fw</icon>
                 <action>SystemModulesCheckView</action>
             </menuitem>
             <menuitem label='Setup PHP'>
-                <icon>fa:code fa-fw</icon>
+                <icon>fa:server fa-fw</icon>
                 <action>SystemPHPInfoView</action>
             </menuitem>
         </menu>
     </menuitem>
     <menuitem label='Básico'>
-        <icon>fa:graduation-cap fa-fw</icon>
+        <icon>fa:seedling fa-fw</icon>
         <menu>
             <menuitem label='Teste'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:vial</icon>
                 <action>TesteView#method=onEventoEstatico</action>
             </menuitem>
             <menuitem label='Template Básico'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:layout</icon>
                 <action>TemplateViewBasico</action>
             </menuitem> 
             <menuitem label='Máscaras'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:address-card</icon>
                 <action>TemplateViewMask</action>
             </menuitem>
             <menuitem label='Repetição'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:redo</icon>
                 <action>TemplateViewRepeat</action>
             </menuitem>
             <menuitem label='Página Simples'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:file</icon>
                 <action>SinglePageView</action>
             </menuitem>
             <menuitem label='Janela Simples'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:window-maximize</icon>
                 <action>SingleWindowView</action>
             </menuitem>
             <menuitem label='Janela sob Demanda'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:magic</icon>
                 <action>OnDemandWindonwView</action>
             </menuitem>
             <menuitem label='Cortina Lateral'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:columns</icon>
                 <action>SidePageView</action>
             </menuitem>
             <menuitem label='PDF Embarcado'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:file-pdf</icon>
                 <action>EmbeddedPDFView</action>
             </menuitem>
             <menuitem label='Vídeo Embarcado'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:video</icon>
                 <action>EmbeddedVideoView</action>
             </menuitem>
             <menuitem label='Sistema Embarcado'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:microchip</icon>
                 <action>EmbeddedSystemView</action>
             </menuitem>
             <menuitem label='Tabela'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:table</icon>
                 <action>TableView</action>
             </menuitem>
             <menuitem label='Painel'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:border-all</icon>
                 <action>PanelGroupView</action>
             </menuitem>
             <menuitem label='Rolagem'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:arrows-alt-v</icon>
                 <action>ScrollView</action>
             </menuitem>
             <menuitem label='Caderno'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:book-open</icon>
                 <action>NoteBookView</action>
             </menuitem>
             <menuitem label='Vertical Box'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:grip-lines</icon>
                 <action>VBoxView</action>
             </menuitem>
             <menuitem label='Horizontal Box'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:grip-lines-vertical</icon>
                 <action>HBoxView</action>
             </menuitem>
             <menuitem label='Diálogo de Mensagem'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:comment-alt</icon>
                 <action>InformationView</action>
             </menuitem>
             <menuitem label='Diálogo de Pergunta'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:question-circle</icon>
                 <action>QuestionView</action>
             </menuitem>
             <menuitem label='Diálogo de Input'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:keyboard</icon>
                 <action>InputView</action>
             </menuitem>
-            </menu>
+        </menu>
     </menuitem>
     <menuitem label='Banco de Dados'>
-        <icon>fa:solid fa-database</icon>
+        <icon>fa:database</icon>
         <menu>
             <menuitem label='Teste de Banco de Dados'>
-                <icon>fa:solid fa-arrow-right</icon>
+                <icon>fa:plug</icon>
                 <action>conexaoManual</action>
             </menuitem>
             <menuitem label='Active Records Básicas'>
-                <icon>fa:graduation-cap</icon>
+                <icon>fa:stream</icon>
                 <menu>
                     <menuitem label='Armazenamento de Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:archive</icon>
                         <action>ObjectStore</action>
                     </menuitem>
                     <menuitem label='Criar Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:plus-circle</icon>
                         <action>ObjectCreate</action>
                     </menuitem>
                     <menuitem label='Carregar Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:download</icon>
                         <action>ObjectLoad</action>
                     </menuitem>
                     <menuitem label='Encontrar Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:search</icon>
                         <action>ObjectFind</action>
                     </menuitem>
                     <menuitem label='Alterar Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:edit</icon>
                         <action>ObjectUpdate</action>
                     </menuitem>
                     <menuitem label='Deletar Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:trash-alt</icon>
                         <action>ObjectDelete</action>
                     </menuitem>
                 </menu>
             </menuitem>
             <menuitem label='Active Records Avançados'>
-                <icon>fa:brain</icon>
+                <icon>fa:rocket</icon>
                 <menu>
                     <menuitem label='Associaçõe de Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:link</icon>
                         <action>ObjectAssociete</action>
                     </menuitem>
                     <menuitem label='Array de Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:list-ol</icon>
                         <action>ObjectArray</action>
                     </menuitem>
-
                     <menuitem label='JSON de Objeto'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:code</icon>
                         <action>ObjectJSON</action>
                     </menuitem>
                 </menu>
@@ -172,23 +171,167 @@
                 <icon>fa:layer-group</icon>
                 <menu>
                     <menuitem label='Contador'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:sort-numeric-up</icon>
                         <action>CollectionCount</action>
                     </menuitem>
                     <menuitem label='Carregar'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:folder-open</icon>
                         <action>CollectionLoad</action>
                     </menuitem>
                     <menuitem label='Atualizar'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:sync-alt</icon>
                         <action>CollectionUpdate</action>
                     </menuitem>
                     <menuitem label='Deletar'>
-                        <icon>fa:solid fa-arrow-right</icon>
+                        <icon>fa:eraser</icon>
                         <action>CollectionDelete</action>
+                    </menuitem>
+                    <menuitem label='Atalhos'>
+                        <icon>fa:external-link-alt</icon>
+                        <action>CollectionShortcurts</action>
+                    </menuitem>
+                    <menuitem label='Agregação'>
+                        <icon>fa:calculator</icon>
+                        <action>CollectionAgregation</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+            <menuitem label='Objeto Relacionado'>
+                <icon>fa:project-diagram</icon>
+                <action>ObjetoRelacionado</action>
+            </menuitem>
+            <menuitem label='DML'>
+                <icon>fa:terminal</icon>
+                <menu>
+                    <menuitem label='Inserção'>
+                        <icon>fa:sign-in-alt</icon>
+                        <action>DMLInsert</action>
+                    </menuitem>
+                    <menuitem label='Atualizar'>
+                        <icon>fa:save</icon>
+                        <action>DMLUpdate</action>
+                    </menuitem>
+                    <menuitem label='Selecionar'>
+                        <icon>fa:mouse-pointer</icon>
+                        <action>DMLSelect</action>
                     </menuitem>
                 </menu>
             </menuitem>
         </menu>
     </menuitem>
-</menu>     
+    <menuitem label='Formulários'>
+        <icon>fa:wpforms</icon>
+        <menu>
+            <menuitem label='Basico'>
+                <icon>fa:edit</icon>
+                <action>FormularioManual</action>
+            </menuitem>
+            <menuitem label='Bootstrap'>
+            <icon>fa:bootstrap</icon>
+            <menu>
+                <menuitem label='Bootstrap'>
+                    <icon>fa:th-list</icon>
+                    <action>FormularioBootstrap</action>
+                </menuitem>
+                <menuitem label='Coluna'>
+                    <icon>fa:columns</icon>
+                    <action>FormularioBootstrapColunas</action>
+                </menuitem>
+                <menuitem label='Vertical'>
+                    <icon>fa:ellipsis-v</icon>
+                    <action>FormularioBootstrapVertical</action>
+                </menuitem>
+                <menuitem label='Estático'>
+                    <icon>fa:lock</icon>
+                    <action>FormularioBootstrapEstatico</action>
+                </menuitem>
+                <menuitem label='Lista'>
+                    <icon>fa:list-ul</icon>
+                    <action>BootstrapFildList</action>
+                </menuitem>
+                </menu>
+            </menuitem>
+            <menuitem label='Lista de Checage'>
+                <icon>fa:check-square</icon>
+                <action>FormularioCheckList</action>
+            </menuitem>
+            <menuitem label='Mascaras'>
+                <icon>fa:mask</icon>
+                <action>FormularioMascaras</action>
+            </menuitem>
+            <menuitem label='Validações'>
+                <icon>fa:user-shield</icon>
+                <action>FormularioValidacoes</action>
+            </menuitem>
+            <menuitem label='Seleções'>
+                <icon>fa:mouse-pointer</icon>
+                <action>FormularioSelecoes</action>
+            </menuitem>
+            <menuitem label='Seleções Banco'>
+                <icon>fa:database</icon>
+                <action>FormularioSelecoesBanco</action>
+            </menuitem>
+            <menuitem label='Interações'>
+                <icon>fa:exchange-alt</icon>
+                <action>FormularioInteracoes</action>
+            </menuitem>
+            <menuitem label='Lista Ordenada'>
+                <icon>fa:sort-amount-down</icon>
+                <action>SortList</action>
+            </menuitem>
+            <menuitem label='Editor de HTML'>
+                <icon>fa:code</icon>
+                <action>HtmlEditor</action>
+            </menuitem>
+            <menuitem label='Código Barras/QR Code'>
+                <icon>fa:qrcode</icon>
+                <action>FormCodeReader</action>
+            </menuitem>
+            <menuitem label='Imagem Upload'>
+                <icon>fa:cloud-upload-alt</icon>
+                <action>FormImageUploader</action>
+            </menuitem>
+            <menuitem label='LikertScale'>
+                <icon>fa:balance-scale</icon>
+                <action>LikertScale</action>
+            </menuitem>
+            <menuitem label='Formulário Modal'>
+                <icon>fa:window-restore</icon>
+                <action>ModalForm</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    <menuitem label='Datagrids'>
+        <icon>fa:table</icon>
+        <menu>
+            <menuitem label='Bootstrap'>
+                <icon>fa:border-all</icon>
+                <action>DatagridBootstrap</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    <menuitem label='Cadastro'>
+        <icon>fa:address-book</icon>
+        <menu>
+        
+        </menu>
+    </menuitem>
+    <menuitem label='Relatório e Gráficos'>
+        <icon>fa:chart-bar</icon>
+        <menu>
+        
+        </menu>
+    </menuitem>
+    <menuitem label='Utilitários'>
+        <icon>fa:tools</icon>
+        <menu>
+        
+        </menu>
+    </menuitem>
+    <menuitem label='Template'>
+        <icon>fa:object-group</icon>
+        <menu>
+        
+        </menu>
+    </menuitem>
+</menu>
