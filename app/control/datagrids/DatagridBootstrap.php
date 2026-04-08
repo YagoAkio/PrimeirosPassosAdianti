@@ -56,7 +56,7 @@ class DatagridBootstrap extends TPage
         new TMessage('info', 'Coluna clicada: ' . $param['coluna']);
     }
 
-    public function onReload(){
+    public function onReload(){ 
         $this->datagrid->clear();
 
         $item = new stdClass;

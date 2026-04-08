@@ -227,28 +227,28 @@
                 <action>FormularioManual</action>
             </menuitem>
             <menuitem label='Bootstrap'>
-            <icon>fa:bootstrap</icon>
-            <menu>
-                <menuitem label='Bootstrap'>
-                    <icon>fa:th-list</icon>
-                    <action>FormularioBootstrap</action>
-                </menuitem>
-                <menuitem label='Coluna'>
-                    <icon>fa:columns</icon>
-                    <action>FormularioBootstrapColunas</action>
-                </menuitem>
-                <menuitem label='Vertical'>
-                    <icon>fa:ellipsis-v</icon>
-                    <action>FormularioBootstrapVertical</action>
-                </menuitem>
-                <menuitem label='Estático'>
-                    <icon>fa:lock</icon>
-                    <action>FormularioBootstrapEstatico</action>
-                </menuitem>
-                <menuitem label='Lista'>
-                    <icon>fa:list-ul</icon>
-                    <action>BootstrapFildList</action>
-                </menuitem>
+                <icon>fa:bootstrap</icon>
+                <menu>
+                    <menuitem label='Bootstrap'>
+                        <icon>fa:th-list</icon>
+                        <action>FormularioBootstrap</action>
+                    </menuitem>
+                    <menuitem label='Coluna'>
+                        <icon>fa:columns</icon>
+                        <action>FormularioBootstrapColunas</action>
+                    </menuitem>
+                    <menuitem label='Vertical'>
+                        <icon>fa:ellipsis-v</icon>
+                        <action>FormularioBootstrapVertical</action>
+                    </menuitem>
+                    <menuitem label='Estático'>
+                        <icon>fa:lock</icon>
+                        <action>FormularioBootstrapEstatico</action>
+                    </menuitem>
+                    <menuitem label='Lista'>
+                        <icon>fa:list-ul</icon>
+                        <action>BootstrapFildList</action>
+                    </menuitem>
                 </menu>
             </menuitem>
             <menuitem label='Lista de Checage'>
@@ -305,33 +305,85 @@
         <icon>fa:table</icon>
         <menu>
             <menuitem label='Bootstrap'>
-                <icon>fa:border-all</icon>
+                <icon>fa:th</icon>
                 <action>DatagridBootstrap</action>
+            </menuitem>
+            <menuitem label='Grupo de Ações'>
+                <icon>fa:layer-group</icon>
+                <action>DatagridGrupoAcoes</action>
+            </menuitem>
+            <menuitem label='Ação Condicional'>
+                <icon>fa:random</icon>
+                <action>DatagridAcaoCondicional</action>
+            </menuitem>
+            <menuitem label='Rolagem Horizontal'>
+                <icon>fa:arrows-alt-h</icon>
+                <action>DatagridScrollHorizontal</action>
+            </menuitem>
+            <menuitem label='Rolagem Vertical'>
+                <icon>fa:arrows-alt-v</icon>
+                <action>DatagridScrollVertical</action>
+            </menuitem>
+            <menuitem label='Colunas Escondidas'>
+                <icon>fa:eye-slash</icon>
+                <action>DatagridColunasEscondidas</action>
+            </menuitem>
+            <menuitem label='Tabela Data'>
+                <icon>fa:database</icon>
+                <action>DatagridDataTables</action>
+            </menuitem>
+            <menuitem label='Busca'>
+                <icon>fa:search</icon>
+                <action>DatagridBusca</action>
+            </menuitem>
+            <menuitem label='Formatação'>
+                <icon>fa:paint-brush</icon>
+                <action>DatagridFormatacao</action>
+            </menuitem>
+            <menuitem label='Links'>
+                <icon>fa:link</icon>
+                <action>DatagridLinks</action>
+            </menuitem>
+            <menuitem label='Cáculos'>
+                <icon>fa:calculator</icon>
+                <action>DatagridCalculos</action>
+            </menuitem>
+            <menuitem label='Imagens'>
+                <icon>fa:image</icon>
+                <action>DatagridImagem</action>
+            </menuitem>
+            <menuitem label='Exportação'>
+                <icon>fa:file-export</icon>
+                <action>DatagridExporta</action>
+            </menuitem>
+            <menuitem label='Input'>
+                <icon>fa:i-cursor</icon>
+                <action>DatagridInput</action>
             </menuitem>
         </menu>
     </menuitem>
     <menuitem label='Cadastro'>
         <icon>fa:address-book</icon>
         <menu>
-        
+            <!-- Adicione itens de cadastro aqui -->
         </menu>
     </menuitem>
     <menuitem label='Relatório e Gráficos'>
-        <icon>fa:chart-bar</icon>
+        <icon>fa:chart-pie</icon>
         <menu>
-        
+            <!-- Adicione itens de relatório aqui -->
         </menu>
     </menuitem>
     <menuitem label='Utilitários'>
         <icon>fa:tools</icon>
         <menu>
-        
+            <!-- Adicione itens utilitários aqui -->
         </menu>
     </menuitem>
     <menuitem label='Template'>
-        <icon>fa:object-group</icon>
+        <icon>fa:clone</icon>
         <menu>
-        
+            <!-- Adicione itens de template aqui -->
         </menu>
     </menuitem>
 </menu>
